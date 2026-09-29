@@ -1,0 +1,7 @@
+CONCLUSION
+
+The organisational hierarchy was successfully represented using a general tree structure. Level-order traversal was used to display the hierarchy level by level.
+
+Linear Search and Binary Search were implemented to locate department names. Linear Search can work with unsorted data, while Binary Search requires the department names to be sorted.
+
+For the given department list, Binary Search generally requires fewer comparisons than Linear Search for the tested searches. Therefore, the tree representation is suitable for organisational reporting, while a sorted department list with Binary Search is suitable for efficient department searching.
