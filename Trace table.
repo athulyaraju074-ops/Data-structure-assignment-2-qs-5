@@ -1,0 +1,74 @@
+TRACE TABLE
+
+1. LEVEL-ORDER TRAVERSAL
+
+Level 0:
+CEO
+
+Level 1:
+HR, Finance, IT
+
+Level 2:
+Development, Testing
+
+Level 3:
+Frontend, Backend
+
+Traversal order:
+CEO → HR → Finance → IT → Development → Testing → Frontend → Backend
+
+
+2. LINEAR SEARCH TRACE
+
+Search: Backend
+Comparisons:
+1. Backend → Found
+Total comparisons = 1
+
+Search: IT
+Comparisons:
+1. Backend
+2. CEO
+3. Development
+4. Finance
+5. Frontend
+6. HR
+7. IT → Found
+Total comparisons = 7
+
+Search: Testing
+Comparisons:
+1. Backend
+2. CEO
+3. Development
+4. Finance
+5. Frontend
+6. HR
+7. IT
+8. Testing → Found
+Total comparisons = 8
+
+
+3. BINARY SEARCH TRACE
+
+Sorted list:
+Backend, CEO, Development, Finance, Frontend, HR, IT, Testing
+
+Search: Backend
+Middle → Finance
+Left half → CEO
+Left half → Backend → Found
+Total comparisons = 3
+
+Search: IT
+Middle → Finance
+Right half → HR
+Right half → IT → Found
+Total comparisons = 2
+
+Search: Testing
+Middle → Finance
+Right half → HR
+Right half → IT
+Right half → Testing → Found
+Total comparisons = 4
