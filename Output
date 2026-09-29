@@ -1,0 +1,22 @@
+TREE PROGRAM OUTPUT
+
+Level-order traversal:
+CEO HR Finance IT Development Testing Frontend Backend
+
+
+SEARCH PROGRAM OUTPUT
+
+Search 1:
+Input: Backend
+Linear Search: Found, comparisons = 1
+Binary Search: Found, comparisons = 3
+
+Search 2:
+Input: IT
+Linear Search: Found, comparisons = 7
+Binary Search: Found, comparisons = 3
+
+Search 3:
+Input: Testing
+Linear Search: Found, comparisons = 8
+Binary Search: Found, comparisons = 4
