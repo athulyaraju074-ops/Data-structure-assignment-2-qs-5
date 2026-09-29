@@ -1,0 +1,25 @@
+Organisational Hierarchy
+
+CEO
+HR
+Finance
+IT
+Development
+Testing
+Frontend
+Backend
+
+Sorted department list for Binary Search:
+Backend
+CEO
+Development
+Finance
+Frontend
+HR
+IT
+Testing
+
+Sample search inputs:
+Backend
+IT
+Testing
