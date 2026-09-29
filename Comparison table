@@ -1,0 +1,10 @@
+COMPARISON TABLE
+
+Operation              Linear Search       Binary Search
+---------------------------------------------------------
+Data requirement       Unsorted data       Sorted data
+Best case              O(1)                O(1)
+Worst case             O(n)                O(log n)
+Space complexity       O(1)                O(1)
+Ease of implementation Simple              Slightly complex
+Suitable for           Small/unsorted      Sorted department list
