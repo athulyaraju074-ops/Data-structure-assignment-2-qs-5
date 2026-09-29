@@ -1,0 +1,35 @@
+COMPLEXITY ANALYSIS
+
+1. Level-Order Traversal
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+2. Linear Search
+Best Case Time Complexity: O(1)
+Worst Case Time Complexity: O(n)
+Space Complexity: O(1)
+
+3. Binary Search
+Best Case Time Complexity: O(1)
+Worst Case Time Complexity: O(log n)
+Space Complexity: O(1)
+
+4. Tree Height
+The height of the given organisational tree is 3 edges
+from the CEO to the lowest-level departments.
+There are 4 levels in the tree.
+
+5. Search Comparison
+For the given sample searches:
+
+Backend:
+Linear Search = 1 comparison
+Binary Search = 3 comparisons
+
+IT:
+Linear Search = 7 comparisons
+Binary Search = 3 comparisons
+
+Testing:
+Linear Search = 8 comparisons
+Binary Search = 4 comparisons
